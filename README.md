@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Get API Key
+You can create your API key using (https://newsapi.org/) this website.
+and replace it in the News.js react component.
 
 ## Available Scripts
 
