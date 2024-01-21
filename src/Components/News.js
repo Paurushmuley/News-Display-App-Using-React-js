@@ -24,6 +24,7 @@ export class News extends Component {
             page : 1
         }
     }
+    //apiKey=3ff5b73fed81498e810dce5295979a2e update this with your api key download from new api
     async componentDidMount(){
         let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=3ff5b73fed81498e810dce5295979a2e&page=1&pageSize=${this.props.pageSize}`;
         this.setState({loading: true});
